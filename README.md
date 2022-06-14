@@ -35,10 +35,6 @@ Craft Language Support is a Visual Studio Code extension that provides snippets,
 
 This extension provides language support for the Twig syntax.
 
-### Code formatter/beautifier for Twig files
-
-Using PrettyDiff, this extension implements the only working code formatter for Twig files in VS Code.
-
 ### Information about Twig code on hover
 
 VS Code Craft Language Support shows information about the symbol/object that's below the mouse cursor when you hover within Twig files.
@@ -153,40 +149,6 @@ rss                      Example rss feed
 
 dd                       <pre>{{ dump() }}</pre>{% exit %}
 dump                     <pre>{{ dump() }}</pre>
-```
-
-### Example Forms
-
-```twig
-
-formlogin                Example login form
-formuserprofile          Example user profile form
-formuserregistration     Example user registration form
-formforgotpassword       Example forgot password form
-formsetpassword          Example set password form
-formsearch               Example search form
-formsearchresults        Example search form results
-
-```
-
-### Reference Hints
-
-```twig
-
-info            All craft.assets properties and template tags
-info            All craft.crategories properties and template tags
-info            All craft.config properties and template tags
-info            All craft.entries properties and template tags
-info            All craft.feeds properties and template tags
-info            All craft.fields properties and template tags
-info            All craft.globals properties and template tags
-info            All craft.request properties and template tags
-info            All craft.sections properties and template tags
-info            All craft.session properties and template tags
-info            All craft.tags properties and template tags
-info            All craft.users properties and template tags
-info            All craft globals (site info, date, users, template tags)
-
 ```
 
 ## Author
